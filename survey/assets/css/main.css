@@ -1,0 +1,20 @@
+body {
+  background-color: skyblue;
+}
+
+.question-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.question {
+  font-family: arial;
+}
+
+.answer {
+  font-size: 50px;
+}
+
+img {
+  width: 25%;
+}
