@@ -13,6 +13,7 @@ body {
 }
 
 a {
+  font-family:helvetica;
   background-color: white;
   padding: 20px;
   border-radius: 25px;
