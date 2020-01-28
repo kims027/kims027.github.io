@@ -10,6 +10,7 @@ h1 {
 body {
   padding: 20px;
   background-image: radial-gradient(circle, skyblue, purple, pink);
+  text-align: center;
 }
 
 a {
@@ -17,4 +18,5 @@ a {
   background-color: white;
   padding: 20px;
   border-radius: 25px;
+  text-align: center;
 }
