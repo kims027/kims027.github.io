@@ -43,6 +43,13 @@ body {
   font-family: helvetica;
 }
 
+a {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+}
+
 img {
   width: 25%;
   border-radius: 25px;

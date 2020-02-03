@@ -1,0 +1,98 @@
+
+body {
+  margin: 20px;
+}
+
+.container {
+  opacity: 0.5;
+  transition-delay:2s; /* 2 sec delay */
+}
+
+.container:hover {
+  opacity: 1.0;
+  transition-delay:0s; 
+}
+
+.step {
+  position: absolute;
+}
+
+.step-small {
+  width: 12vw;
+  height: 12vw;
+}
+
+.step-medium {
+  width: 20vw;
+  height: 20vw;
+}
+
+.step-large {
+  width: 35vw;
+  height: 35vw;
+}
+
+.step-1 {
+  right: 10%;
+  top: 5%;
+}
+
+.step-2 {
+  right: 10%;
+  top: 30%;
+}
+
+.step-3 {
+  right: 10%;
+  top: 55%;
+}
+
+.step-4 {
+  right: 23%;
+  top: 55%;
+}
+
+.step-5 {
+  right: 31%;
+  top: 96%;
+}
+
+.step-6 {
+  right: 31%;
+  top: 121.5%;
+}
+
+.step-7 {
+  right: 31%;
+  top: 147%;
+}
+
+.step-8 {
+  right: 67.2%;
+  top: 191.8%;
+}
+
+.step-9 {
+  right: 80.3%;
+  top: 191.8%;
+}
+
+.step-10 {
+  right: 80.3%;
+  top: 217.4%;
+}
+
+.step-11 {
+  right: 80.3%;
+  top: 243%;
+}
+
+.step-12 {
+  right: 67.2%;
+  top: 243%;
+}
+
+.step-13 {
+  right: 46%;
+  top: 243%;
+}
