@@ -1,0 +1,525 @@
+ body {
+  background: floralwhite;
+ }
+
+ .square-1 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 5vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+} 
+
+ .square-2 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 10vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-3 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 15vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-4 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 20vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-5 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 25vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-6 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 30vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-7 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 35vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-8 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 40vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-9 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 45vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-10 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 50vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-11 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 55vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-12 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 60vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-13 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 65vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-14 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 70vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-15 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 75vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-16 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 80vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-17 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 85vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-18 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 90vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.square-19 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 95vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+ .square-20 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: midnightblue;
+  left: 5vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+} 
+
+ .square-21 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: midnightblue;
+  left: 10vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+ .square-22 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: midnightblue;
+  left: 15vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+ .square-23 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: midnightblue;
+  left: 20vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse; 
+}
+
+/* .square-24 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: midnightblue;
+  left: 25vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}*/
+
+/* .square-25 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 30vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+ .square-26 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 35vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}*/
+
+ .square-27 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: seagreen;
+  left: 40vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+ .square-28 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: seagreen;
+  left: 45vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse; 
+}
+
+.square-29 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: seagreen;
+  left: 50vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-30 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: seagreen;
+  left: 55vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+/*.square-31 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 60vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-32 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 65vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-33 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: firebrick;
+  left: 70vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-34 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: goldenrod;
+  left: 75vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}*/
+
+.square-35 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: goldenrod;
+  left: 80vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-36 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: goldenrod;
+  left: 85vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-37 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: goldenrod;
+  left: 90vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-direction: reverse;
+}
+
+.square-38 {
+  position: fixed;
+  height: 90vh;
+  width: 0.5vw;
+  background-color: goldenrod;
+  left: 95vw;
+  top: 5vh;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  animation-duration: alternate;
+  animation-direction: reverse;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

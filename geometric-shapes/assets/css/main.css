@@ -1,0 +1,357 @@
+body {
+  background-color: skyblue;
+}
+
+
+.small-circle {
+    background-color:#F16D71;
+    color:#FFFFFF;
+    width: 0.5vw;
+    height: 10vh;
+}
+
+.small-circle:hover{
+    background: blue;
+}
+
+.small-circle:hover, .small-circle:active {
+    background-color:yellow;
+    color:yellow;
+    cursor:pointer;
+}
+
+.medium-circle {
+    width: 0.5vw;
+    height: 30vh;
+}
+
+.large-circle {
+    width: 0.5vw;
+    height: 50vh;
+}
+
+.circle-1 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    right: 30vw;
+}
+
+.circle-2 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 50%;
+}
+
+.circle-3 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+}
+
+.circle-4 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+}
+
+.circle-5 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+}
+
+
+.circle-6 {
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+}
+
+.circle-7 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 10vw;
+    top: 3vw;
+}
+
+.circle-8 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 10vw;
+    top: 11vw;
+}
+
+.circle-9 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 10vw;
+    top: 19vw;
+}
+
+.circle-10 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 10vw;
+    top: 27vw;
+}
+
+.circle-11 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 10vw;
+    top: 55vw;
+}
+
+.circle-12 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 20vw;
+    top: 14vw;
+}
+
+.circle-13 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 20vw;
+    top: 42.5vw;
+}
+
+.circle-14 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 10vw;
+}
+
+.circle-15 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 20vw;
+}
+
+.circle-16 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 30vw;
+}
+
+.circle-17 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 40vw;
+}
+
+.circle-18 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 50vw;
+}
+
+.circle-19 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 30vw;
+    top: 60vw;
+}
+
+.circle-20 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 40vw;
+    top: 20vw;
+}
+
+.circle-21 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 40vw;
+    top: 38vw;
+}
+
+.circle-22 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 50vw;
+    top: 38vw;
+}
+
+.circle-23 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 60vw;
+    top: 10vw;
+}
+
+.circle-24 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 60vw;
+    top: 18vw;
+}
+
+.circle-25 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 60vw;
+    top: 36vw;
+}
+
+.circle-26 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 60vw;
+    top: 64.5vw;
+}
+
+.circle-27 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 70vw;
+    top: 5vw;
+}
+
+.circle-28 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 70vw;
+    top: 15vw;
+}
+
+.circle-29 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 70vw;
+    top: 25vw;
+}
+
+.circle-30 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 70vw;
+    top: 35vw
+}
+
+.circle-31 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 70vw;
+    top: 55vw
+}
+
+.circle-32 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 80vw;
+    top: 25vw
+}
+
+.circle-33 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 90vw;
+    top: 5vw
+}
+
+
+.circle-34 {
+    position: absolute;
+    border: 1vh solid #1111a1;
+    padding: 1vw 4vh; 
+    background: #dddddd;
+    border-radius: 10vw;
+    left: 90vw;
+    top: 33.5vw
+}

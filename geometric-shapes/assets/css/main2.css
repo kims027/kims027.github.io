@@ -1,0 +1,77 @@
+body {
+  background-color: floralwhite;
+}
+
+.square-1 {
+  position: fixed;
+  height: 90vh;
+  width: 50vw;
+  background-color: firebrick;
+  right: 5vw;
+  top: 40vh;
+}
+
+.circle-2 {
+  position: fixed;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  display: absolute;
+  align-items: center;
+  top: 10vh;
+  left: 20vw;
+  border: 3vw solid midnightblue;
+  z-index: 1;
+}
+
+.square-3 {
+  position: absolute;
+  height: 4vh;
+  width: 70vw;
+  top: 50vh;
+  left: 30vw;
+  background-color: goldenrod;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  z-index: 3;
+}
+
+.square-4 {
+  position: absolute;
+  height: 1vh;
+  width: 15vw;
+  top: 20vh;
+  left: 20vw;
+  background-color: black;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  z-index: 3;
+}
+
+.square-5 {
+  position: absolute;
+  height: 1vh;
+  width: 15vw;
+  top: 20vh;
+  left: 25vw;
+  background-color: black;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  z-index: 3;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
