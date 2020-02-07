@@ -1,0 +1,95 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.vase {
+    display: block;
+    width: 116px;
+    position: absolute;
+    top: 174px;
+    left: 484px;
+    height: 135px;
+    background-color: red;
+    border-radius: 56% 56% 45% 45% / 90% 90% 35% 35%;
+    z-index: 3;
+}
+
+.book {
+    width: 248px;
+    height: 52px;
+    background: #404040;
+    position: absolute;
+    top: 278px;
+    left: 379px;
+    transform: skewX(27deg);
+    z-index: 2;
+}
+
+.bookside {
+    width: 248px;
+    height: 28px;
+    background: black;
+    position: absolute;
+    top: 52px;
+    left: -6px;
+    transform: skewX(-24deg);
+}
+
+.bookleftside {
+    width: 14px;
+    height: 52px;
+    background: #efecec;
+    position: absolute;
+    top: 16px;
+    left: -14px;
+    transform: skew(1deg, -66deg);
+}
+
+.book2 {
+    width: 187px;
+    height: 75px;
+    background: #ababab;
+    position: absolute;
+    top: 358px;
+    left: 456px;
+    transform: skewX(2deg);
+    z-index: 1;
+}
+
+.book2side {
+    width: 24px;
+    height: 75px;
+    background: #cecdcd;
+    position: absolute;
+    top: -19px;
+    left: -22px;
+    transform: skew(-1deg, 61deg);
+    z-index: 1;
+}
+
+.camera {
+    width: 36px;
+    height: 75px;
+    background: #cecdcd;
+    position: absolute;
+    top: 280px;
+    left: 732px;
+    z-index: 1;
+}
