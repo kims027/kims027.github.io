@@ -14,7 +14,7 @@ body {
 .frame {
   width: 95vw;
   height: 57vw;
-  background: white;
+  background: #ffeb3b;
   margin: 2.5vw auto;
   position: relative;
   z-index:10;
@@ -27,49 +27,48 @@ body {
   top: 20vw;
   left: 43vw;
   height: 10vw;
-  background-color: #efdfc3;
+  background-color: #ecd4f1;
   border-radius: 56% 56% 45% 45% / 90% 90% 35% 35%;
   z-index: 4;
 }
 
 .tabletop {
-  width: 79vw;
+  width: 92vw;
   height: 14vw;
-  background: #b7a99a;
+  background: #ecd3f1;
   position: absolute;
   top: 31vw;
-  left: 8vw;
-  transform: skewx(-42deg);
+  left: 0vw;
+  transform: skewX(-42deg);
   z-index: 2;
 }
 
 .tabletopfront {
-  width: 79vw;
-  height: 15vw;
-  background: #7d7368;
+  width: 91vw;
+  height: 14vw;
+  background: #674975;
   position: absolute;
   top: 14vw;
   left: 7vw;
   z-index: 2;
-  transform: skewX(42deg);
+  transform: skewX(39deg);
 }
 
 .tabletopside {
-  width: 15vw;
+  width: 11vw;
   height: 15vw;
-  background: #8e857c;
+  background: #3e173d;
   position: absolute;
-  top: 7.5vw;
-  left: 79vw;
+  top: 6.5vw;
+  left: 92vw;
   z-index: 0;
-  transform: skewY(44deg);
+  transform: skewY(50deg);
 }
-
 
 .book {
   width: 24vw;
   height: 5vw;
-  background: #404040;
+  background: #a87abd;
   position: absolute;
   top: 27vw;
   left: 33vw;
@@ -80,7 +79,7 @@ body {
 .bookside {
   width: 24vw;
   height: 2.5vw;
-  background: black;
+  background: #674975;
   position: absolute;
   top: 5vw;
   left: -0.8vw;
@@ -91,18 +90,17 @@ body {
 .bookleftside {
   width: 2vw;
   height: 5vw;
-  background: #efecec;
+  background: #CE9DF0;
   position: absolute;
   top: 1.2vw;
   left: -1.9vw;
   transform: skew(1deg, -53deg);
 }
 
-
 .book2 {
   width: 17vw;
   height: 6vw;
-  background: #9e9b9b;
+  background: #3e173d;
   position: absolute;
   top: 34vw;
   left: 42vw;
@@ -113,7 +111,7 @@ body {
 .book2side {
     width: 3vw;
     height: 6vw;
-    background: #b7b7b7;
+    background: #7d557c;
     position: absolute;
     top: -3vw;
     left: -3vw;
@@ -123,10 +121,10 @@ body {
 
 .cathead {
     width: 8vw;
-    height: 6vw;
-    background: #f1f3c5;
+    height: 7vw;
+    background: #ce9df0;
     position: absolute;
-    top: 22vw;
+    top: 21vw;
     left: 20vw;
     border-radius: 4vw / 4vw;
     z-index: 3;
@@ -135,7 +133,7 @@ body {
 .catbody {
     width: 8vw;
     height: 9vw;
-    background: #f1f3c5;
+    background: #ce9df0;
     position: absolute;
     top: 27vw;
     left: 20vw;
@@ -148,10 +146,240 @@ body {
     height: 0vw;
     border-left: 2vw solid transparent;
     border-right: 2vw solid transparent;
-    border-bottom: 3vw solid #bd1a1a;
+    border-bottom: 3vw solid #674975;
     position: absolute;
-    top: 18vw;
+    top: 19.5vw;
+    transform: rotate(-21deg);
     left: 19vw;
     border-radius: 1vw 1vw 1vw;
     z-index: 3;
 }
+
+.catear2 {
+    width: 0vw;
+    height: 0vw;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 3vw solid #674975;
+    position: absolute;
+    top: 19.5vw;
+    transform: rotate(26deg);
+    left: 25vw;
+    border-radius: 1vw 1vw 1vw;
+    z-index: 3;
+}
+
+.catear1back {
+    width: 1vw;
+    height: 3vw;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 3vw solid #ce9df0;
+    position: absolute;
+    top: 16.5vw;
+    transform: rotate(-21deg);
+    left: 18vw;
+    border-radius: 1vw 1vw 1vw;
+    z-index: 2;
+}
+
+.catear2back {
+    width: 1vw;
+    height: 3vw;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 3vw solid #ce9df0;
+    position: absolute;
+    top: 16.5vw;
+    transform: rotate(26deg);
+    left: 25vw;
+    border-radius: 1vw 1vw 1vw;
+    z-index: 2;
+}
+
+.cateye1 {
+    width: 0.8vw;
+    height: 0.8vw;
+    background: #3e173d;
+    border-radius: 5vw;
+    position: absolute;
+    left: 21vw;
+    top: 24vw;
+    z-index: 7;
+}
+
+.cateye2 {
+    width: 0.8vw;
+    height: 0.8vw;
+    background: #3e173d;
+    border-radius: 5vw;
+    position: absolute;
+    left: 25vw;
+    top: 24vw;
+    z-index: 7;
+}
+
+.catnose {
+    width: 0;
+    height: 0;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-top: 0.5vw solid #3e173d;
+    position: absolute;
+    left: 22.8vw;
+    top: 25vw;
+    z-index: 5; 
+}
+
+.leftarm {
+    width: 2.5vw;
+    height: 7vw;
+    background: #674975;
+    border-radius: 1vw;
+    position: absolute;
+    left: 20.5vw;
+    top: 30vw;
+    z-index: 5;
+}
+
+.rightarm {
+    width: 2.5vw;
+    height: 5vw;
+    background: #674975;
+    border-radius: 1vw;
+    position: absolute;
+    left: 26.5vw;
+    top: 25vw;
+    z-index: 5;
+    transform: rotate(27deg);
+}
+
+.book3inside {
+    width: 9vw;
+    height: 1vw;
+    background: #a879bd;
+    position: absolute;
+    top: -1vw;
+    transform: skew(-65deg, 0deg);
+    left: 1vw;
+    z-index: 1;
+}
+.book3 {
+    width: 9vw;
+    height: 12vw;
+    background: #ce9df0;
+    position: absolute;
+    top: 24vw;
+    left: 5vw;
+    z-index: 5;
+    transform: skew(2deg, 6deg);
+}
+
+.book3side {
+    width: 1.5vw;
+    height: 12.5vw;
+    position: absolute;
+    background: #7c557c;
+    top: -0.8vw;
+    left: 9vw;
+    transform: skew(0deg, -14deg);
+}
+
+.flowerstem1 {
+    width: 1vw;
+    height: 5vw;
+    background: #3e173d;
+    position: absolute;
+    top: -5vw;
+    left: 4vw;
+    z-index: 1;
+}
+
+.flowerpetal1 {
+    width: 3vw;
+    height: 2vw;
+    background: #674975;
+    position: absolute;
+    top: -7vw;
+    left: 2vw;
+    border-radius: 5vw / 3vw;
+    transform: rotate(57deg);
+}
+
+.flowerpetal2 {
+    width: 3vw;
+    height: 2vw;
+    background: #674975;
+    position: absolute;
+    top: -7vw;
+    left: 3vw;
+    border-radius: 5vw / 3vw;
+    transform: rotate(94deg);
+}
+
+.flowerpetal3 {
+    width: 3vw;
+    height: 2vw;
+    background: #674975;
+    position: absolute;
+    top: -7vw;
+    left: 4vw;
+    border-radius: 5vw / 3vw;
+    transform: rotate(113deg);
+}
+
+.flowerpetal4 {
+    width: 3vw;
+    height: 2vw;
+    background: #674975;
+    position: absolute;
+    top: -9vw;
+    left: 4vw;
+    border-radius: 5vw / 3vw;
+    transform: rotate(113deg);
+}
+
+.flowerpetal5 {
+    width: 3vw;
+    height: 2vw;
+    background: #674975;
+    position: absolute;
+    top: -9vw;
+    left: 2vw;
+    border-radius: 5vw / 3vw;
+    transform: rotate(71deg);
+}
+
+.cameraside {
+    width: 3.5vw;
+    height: 7vw;
+    background: #3e173d;
+    border-radius: 1vw;
+    position: absolute;
+    left: 65.5vw;
+    top: 30vw;
+    z-index: 5;
+}
+
+.cameraside2 {
+    width: 3.5vw;
+    height: 9vw;
+    background: #3e173d;
+    border-radius: 1vw;
+    position: absolute;
+    left: 67.5vw;
+    top: 28vw;
+    z-index: 5;
+}
+
+.cameralense {
+    width: 4.5vw;
+    height: 5vw;
+    background: #3e173d;
+    border-radius: 1vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 31vw;
+    z-index: 5;
+}
+
