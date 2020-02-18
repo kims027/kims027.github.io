@@ -1,0 +1,115 @@
+body {
+  background-color:floralwhite;
+}
+
+.first-paragraph {
+  font-family: helvetica;
+  font-size: 2vw;
+  width: 100%;
+  padding: 1vw;
+  position: absolute;
+  left: 45vw;
+}
+
+.second-paragraph {
+  font-family: helvetica;
+  font-size: 2vw;
+  width: 100%;
+  padding: 1vw;
+  position: absolute;
+  left: 53vw;
+  top: 42vw;
+}
+
+.third-paragraph {
+  font-family: helvetica;
+  font-size: 2vw;
+  width: 100%;
+  padding: 1vw;
+  position: absolute;
+  left: 9vw;
+  top: 90vw;
+}
+
+.fourth-paragraph {
+  font-family: helvetica;
+  font-size: 2vw;
+  width: 100%;
+  padding: 1vw;
+  position: absolute;
+  left: 9vw;
+  top: 158vw;
+}
+
+p:hover {
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+
+.hover {
+color: black;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hand{
+  width: 30vw;
+  position: absolute;
+  top:5vw;
+  left: 0.2vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.hand2{
+  width: 40vw;
+  position: absolute;
+  top:70vw;
+  right: 0.2vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.hand:hover {
+  animation-play-state: running;
+}
+
+.hand2:hover {
+  animation-play-state: running;
+}
+
+.agnes {
+  width: 40vw;
+  position: absolute;
+  top: 40vw;
+  left: 10vw;
+}
+
+.agnes2 {
+  width: 25vw;
+  position: absolute;
+  top: 117vw;
+  left: 45vw;
+}
+
+@keyframes clockwise {
+  100% {transform: rotate(1turn); }
+}
+
+@keyframes counter {
+  100% {transform: rotate(-1turn); }
+}
+
+.container {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+
+.container:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
