@@ -1,0 +1,207 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin:0;
+}
+
+.container {
+  background-color: orange;
+  color: white;
+  min-height: 90vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 4vw;
+  margin: auto;
+  font-family: 'Titan One', sans-serif;
+  z-index: 3;
+}
+
+.mouse{
+  animation: slide 15s infinite ease-out;}
+}
+
+.box2 {
+    border: 0.2vw solid white;
+    height: 9.5vw;
+    padding: 1vw;
+}
+
+.mouseear1 {
+  width: 25vw;
+  height: 23vw;
+  background: grey;
+  position: absolute;
+  top: -36vw;
+  left: 32vw;
+  border-radius: 11vw / 11vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.boxtext {
+  color: orange;
+  font-family: 'Titan One', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 2vw;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 1.5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 1.5vw;
+  position: relative;
+  top: 5vw;
+}
+
+.box1 {
+  border: 0.2vw solid orange;
+  height: 4.5vw;
+  padding: 1vw;
+}
+
+.box2 {
+  border: 0.2vw solid orange;
+  height: 5.5vw;
+  padding: 1vw;
+}
+
+.box3 {
+  border: 0.2vw solid orange;
+  height: 5.5vw;
+  padding: 1vw;
+}
+
+.mouseear2 {
+  width: 25vw;
+  height: 23vw;
+  background: grey;
+  position: absolute;
+  top: -36vw;
+  left: 3vw;
+  border-radius: 11vw / 11vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.mousehead {
+  height: 19vw;
+  width: 44vw;
+  border-radius: 44vw 44vw 0 0;
+  background: grey;
+  position: absolute;
+  top: -19vw;
+  left: 7vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.mousenose {
+  height: 3vw;
+  width: 5vw;
+  border-radius: 44vw 44vw 29vw 29vw;
+  background: black;
+  position: absolute;
+  top: -7vw;
+  left: 26vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.mouseeye1 {
+  height: 5vw;
+  width: 2vw;
+  border-radius: 44vw/44vw;
+  background: black;
+  position: absolute;
+  top: -12vw;
+  left: 20vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.mouseeye2 {
+  height: 5vw;
+  width: 2vw;
+  border-radius: 44vw/44vw;
+  background: black;
+  position: absolute;
+  top: -12vw;
+  left: 35vw;
+  z-index: 2;
+  animation: slide 15s 1 ease-out;
+  animation-delay: 10s;
+}
+
+.row {
+  display: flex;
+  margin-top: 1vw;
+}
+
+.col {
+  flex: 1;
+  border: 1vw solid black;
+  padding: 20px;
+}
+
+@keyframes slide {
+  0% { 
+
+  }
+
+  50% {
+    transform: translate(15vw, 0);
+  }
+  50% {
+    transform: translate(-15vw, 0);
+
+  }
+}
+
+@media (max-width: 800px) {
+    .title {
+      font-size: 3rem;
+      text-align: center
+    }
+    .row {
+      display: inline-block;
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+    .col {
+      width: 100%;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 15px;
+    }
+    .box1 {
+      height: 180px;
+    }
+    .box2 {
+      height: 100px;
+    }
+    .box3 {
+      height: 140px;
+    }
+    .boxtext {
+      font-size: 2rem;
+    }
+}

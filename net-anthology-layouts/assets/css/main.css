@@ -6,6 +6,11 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
 }
@@ -149,35 +154,44 @@ body {
 }
 
 
-@media print (max-width: 800px) { 
-  /* All your print styles go here */
+@media screen (max-width: 800px) { 
   .title {
-  font-size: 3rem;
-  }, 
+    font-size: 3rem;
+  } 
+
   .caption-first {
-  font-size: 1rem;
-  font-style: italic;
-  }, 
+    font-size: 1rem;
+    font-style: italic;
+  } 
+
   .caption-second {
   font-size: 1rem;
   font-style: italic;
-  },
+  }
+
   .caption-third {
   font-size: 1rem;
   font-style: italic;
-  }.
+  }
+
   .credit {
   font-family: 'Courier Prime', monospace;
   color: black;
   font-size: 1rem;
-  },
+  }
+
   .caption-fourth {
   font-size: 1rem;
   font-style: italic;
-  },
+  }
+
   .row {
   display: inline-block;
   padding-left: 5vw;
   padding-right: 5vw;
-  },
+  }
+
+  img {
+    width: 50%;
+  }
 }

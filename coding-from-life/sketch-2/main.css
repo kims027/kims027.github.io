@@ -127,10 +127,10 @@ body {
     top: 21vw;
     left: 20vw;
     border-radius: 4vw / 4vw;
-    z-index: 3;
+    z-index: 2;
 }
 
-.catbody {
+.carbody {
     width: 8vw;
     height: 9vw;
     background: #ce9df0;
@@ -138,7 +138,7 @@ body {
     top: 27vw;
     left: 20vw;
     border-radius: 7vw / 5vw;
-    z-index: 3;
+    z-index: 2;
 }
 
 .catear1 {
