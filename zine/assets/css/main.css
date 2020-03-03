@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 70%;
+}
+
+.col-3 {
+  width: 15%;
+}
+
+.person {
+  width: 20vw;
+  z-index: 4;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.whitehouse {
+  width: 30vw;
+  z-index: 2;
+  position: relative;
+  top: -20vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.billie {
+  width: 15vw;
+  z-index: 2;
+  position: relative;
+  top: -45vw;
+  left: 26vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.juul {
+  width: 35vw;
+  z-index: 2;
+  position: relative;
+  top: -42vw;
+  left: 17vw;
+  transform: rotate(-49deg);
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.tinder {
+  width: 12vw;
+  z-index: 1;
+  position: relative;
+  top: -72vw;
+  left: 7.5vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.eye {
+  width: 12vw;
+  z-index: 5;
+  position: relative;
+  top: -76vw;
+  left: 14.5vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.fortnite {
+  width: 21vw;
+  z-index: 1;
+  position: relative;
+  top: -88vw;
+  left: -4.5vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.hydro {
+  width: 9vw;
+  z-index: 1;
+  position: relative;
+  top: -111vw;
+  left: 34.5vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.dog {
+  width: 14vw;
+  z-index: 1;
+  position: relative;
+  top: -126vw;
+  left: 37.5vw;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.sparkle {
+  width: 31vw;
+  z-index: 0;
+  position: relative;
+  top: -155vw;
+  left: 7.5vw;
+  opacity: 0.5;
+}
+
+.girl {
+  width: 31vw;
+  z-index: 6;
+  position: relative;
+  left: 50%;
+  top: -33vw;
+  transform: translateX(-50%);
+}
+
+.gif1 {
+  width: 46vw;
+  z-index: 3;
+  position: relative;
+  top: 13vw;
+  left: -9.5vw;
+}
+
+.gif2 {
+  width: 36vw;
+  z-index: 3;
+  position: relative;
+  top: -8vw;
+  left: 6.5vw;
+}
+
+.gif3 {
+  width: 43vw;
+  z-index: 3;
+  position: relative;
+  top: -9vw;
+  left: -16.5vw;
+}
+
+.gif4 {
+  width: 39vw;
+  z-index: 3;
+  position: relative;
+  top: -66vw;
+  left: 22.5vw;
+}
+
+.gif5 {
+  width: 39vw;
+  z-index: 2;
+  position: relative;
+  top: -83vw;
+  left: -8.5vw;
+}
+
+.gif6 {
+  width: 36vw;
+  z-index: 3;
+  position: relative;
+  top: -138vw;
+  left: 29.5vw;
+}
+
+.backgroundcontainer {
+  background-color: white;
+  padding: 6vw;
+  margin-top: -10vw;
+}
+
+.backgroundcontainer2 {
+  background-color: white;
+  padding: 6vw;
+  margin-top: -10vw;
+}
+
+.backgroundcontainer3 {
+  background-color: white;
+  padding: 6vw;
+  margin-top: -10vw;
+}
+
+.title {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13vw;
+  text-align: center;
+}
+
+.textbox2, .textbox, .textbox3{
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+}
+
+.billie:hover {
+  animation-play-state: running;
+}
+
+.whitehouse:hover {
+  animation-play-state: running;
+}
+
+.juul:hover {
+  animation-play-state: running;
+}
+
+.tinder:hover {
+  animation-play-state: running;
+}
+
+.eye:hover {
+  animation-play-state: running;
+}
+
+.hydro:hover {
+  animation-play-state: running;
+}
+
+.dog:hover {
+  animation-play-state: running;
+}
+
+.fortnite:hover {
+  animation-play-state: running;
+}
+
+.textbox {
+  margin-top: -3vw;
+}
+
+.textbox2 {
+  margin-top: -147vw;
+}
+
+.textbox3 {
+  margin-top: -102vw;
+}
+
+.pictures1 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+}
+
+.pictures2 {
+  margin-top: -8vw;
+}
+
+@keyframes clockwise {
+  100% {transform: rotate(1turn); }
+}
+
+@keyframes counter {
+  100% {transform: rotate(-1turn); }
+}
