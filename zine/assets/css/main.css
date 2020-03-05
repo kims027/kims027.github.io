@@ -564,18 +564,14 @@ a{
 }
 
 @media print { 
-  .title {
-    top: 100rem;
-    font-size:30vh;
-  }
   .question1{
-    display: none;
+    display:none;
   }
-  .pictures3{
-    display:none!important;
+  .ashleyname{
+    display:none;
   }
-  .span{
-    color:black !important;
+  .reginaname{
+    display:none;
   }
 }
 
