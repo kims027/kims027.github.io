@@ -37,6 +37,47 @@ body {
   transform: translateX(-50%);
 }
 
+.spongebob {
+  width: 34vw;
+  z-index: -1;
+  position: relative;
+  top: -29vw;
+  left: 39.5vw;
+}
+
+.spinner {
+  width: 19vw;
+  z-index: -1;
+  position: relative;
+  top: -124vw;
+  left: 24.5vw;
+}
+
+.dance {
+  width: 33vw;
+  z-index: -1;
+  position: relative;
+  top: -63vw;
+  left: -16.5vw;
+}
+
+.cursor {
+  width: 10vw;
+  z-index: 2;
+  position: relative;
+  top: -82vw;
+  left: 60.5vw;
+}
+
+.cursor2 {
+  width: 5vw;
+  z-index: -1;
+  position: relative;
+  top: -75vw;
+  left: 2.5vw;
+  transform: rotate(45deg);
+}
+
 .whitehouse {
   width: 30vw;
   z-index: 2;
@@ -133,6 +174,7 @@ body {
   left: 50%;
   top: -33vw;
   transform: translateX(-50%);
+  filter: grayscale(100%);
 }
 
 .gif1 {
@@ -147,7 +189,7 @@ body {
   width: 36vw;
   z-index: 3;
   position: relative;
-  top: -8vw;
+  top: -6vw;
   left: 6.5vw;
 }
 
@@ -163,8 +205,32 @@ body {
   width: 39vw;
   z-index: 3;
   position: relative;
-  top: -66vw;
+  top: -67vw;
   left: 22.5vw;
+}
+
+.word {
+  width: 18vw;
+  z-index: 3;
+  position: relative;
+  top: -137vw;
+  left: -1.5vw;
+}
+
+.stitch {
+  width: 20vw;
+  z-index: 3;
+  position: relative;
+  top: -151vw;
+  left: 59.5vw;
+}
+
+.cheese {
+  width: 20vw;
+  z-index: -1;
+  position: relative;
+  top: -149vw;
+  left: 60.5vw;
 }
 
 .gif5 {
@@ -183,10 +249,104 @@ body {
   left: 29.5vw;
 }
 
+.swirl {
+  width: 56vw;
+  z-index: 3;
+  position: relative;
+  top: -161vw;
+  left: -0.5vw;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+.ashley {
+  width: 24vw;
+  z-index: 3;
+  position: relative;
+  top: -8vw;
+  left: -0.5vw;
+}
+
+.regina {
+  width: 24vw;
+  z-index: 3;
+  position: relative;
+  top: 1vw;
+  left: -0.5vw;
+}
+
+.justin {
+  width: 24vw;
+  z-index: 3;
+  position: relative;
+  top: 9vw;
+  left: -0.5vw;
+}
+
+.ash {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vw;
+  padding: 12vw;
+  position: relative;
+  top: -95vw;
+  left: 13vw;
+}
+
+.reg {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vw;
+  padding: 12vw;
+  position: relative;
+  top: -109vw;
+  left: 13vw;
+}
+
+.jus {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8vw;
+  padding: 12vw;
+  position: relative;
+  top: -127vw;
+  left: 13vw;
+}
+
+.ashleyname {
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vw;
+  position: relative;
+  top: 1vw;
+}
+
+.reginaname {
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vw;
+  top: 30vw;
+  position: relative;
+}
+
+.justinname {
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vw;
+  top: 58vw;
+  position: relative;
+}
+
 .backgroundcontainer {
   background-color: white;
   padding: 6vw;
-  margin-top: -10vw;
+  margin-top: -129vw;
 }
 
 .backgroundcontainer2 {
@@ -201,6 +361,39 @@ body {
   margin-top: -10vw;
 }
 
+.backgroundcontainer4 {
+  background-color: white;
+  padding: 6vw;
+  margin-top: -10vw;
+}
+
+.backgroundcontainer5 {
+  background-image: linear-gradient(pink, yellow);
+  padding: 3vw;
+  margin-top: 4vw;
+  height: 117vw;
+}
+
+.question1 {
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.5vw;
+  margin-top: 0vw;
+}
+
+span{
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.3vw;
+}
+
+a{
+  color: red;
+  text-decoration: none
+}
+
 .title {
   font-family: proxima-nova, sans-serif;
   font-weight: 700;
@@ -209,11 +402,12 @@ body {
   text-align: center;
 }
 
-.textbox2, .textbox, .textbox3{
+.textbox2, .textbox, .textbox3, .textbox4{
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5vw;
+  margin-top: -20vw;
 }
 
 .billie:hover {
@@ -257,7 +451,7 @@ body {
 }
 
 .textbox3 {
-  margin-top: -102vw;
+  margin-top: -159vw;
 }
 
 .pictures1 {
@@ -276,3 +470,112 @@ body {
 @keyframes counter {
   100% {transform: rotate(-1turn); }
 }
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 5rem;
+    text-align: center
+  }
+  .row {
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .stitch{
+    z-index: -2;
+    position: relative;
+    left: 70vw;
+  }
+  .word{
+    z-index: -2;
+    position: relative;
+    left: 5vw;
+  }
+  .col {
+    width: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+  }
+  .textbox2, .textbox, .textbox3, .textbox4{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: -20vw;
+  }   
+  span{
+    font-size: 1rem;
+  }
+  .pictures1{
+    width: 5vw;
+    position: relative;
+    left: 15%;
+    transform: translateX(-50%);
+  }
+  .pictures2{
+    width: 5vw;
+    position: relative;
+    left: 15%;
+    transform: translateX(-50%);
+  }
+  .girl {
+    position: relative;
+    left: 8rem;
+  }
+  .person {
+    position: relative;
+    left: 8rem;
+  }
+  .textbox {
+    margin-top: 2rem;
+  }
+  .textbox2 {
+    position: relative;
+    margin-top: -48rem;
+  }
+  .textbox3 {
+    position: relative;
+    margin-top: -49rem;
+  }
+  .textbox4 {
+    position: relative;
+    margin-top: -1rem;
+  }
+  .ash{
+    font-size:.7rem;
+  }
+  .reg{
+    position: relative;
+    margin-top:2rem;
+    font-size: .7rem
+  }
+  .jus{
+    position: relative;
+    margin-top:2rem;
+    font-size:.7rem;
+  }
+  .backgroundcontainer5{
+    height: 40rem;
+  }
+  }
+}
+
+@media print { 
+  .title {
+    top: 100rem;
+    font-size:30vh;
+  }
+  .question1{
+    display: none;
+  }
+  .pictures3{
+    display:none!important;
+  }
+  .span{
+    color:black !important;
+  }
+}
+
