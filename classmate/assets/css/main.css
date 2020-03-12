@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'akzidenzgrotesk';
+  src: url('AkzidenzGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF5C63;
+  margin:0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 70%;
+}
+
+.col-3 {
+  width: 15%;
+}
+
+.intro {
+  color: black;
+  font-size: 3.3vw;
+  position: relative;
+  z-index: 2;
+  top: 76vw;
+  left: -2vw;
+  padding: -3vw;
+  text-align: center;
+}
+
+.name {
+  color: #00ced1;
+  font-size: 2.3vw;
+  position: relative;
+  z-index: 2;
+  top: -18vw;
+  left: 22vw;
+}
+
+.whitebox {
+  position: absolute;
+  width: 136vw;
+  height: 56vw;
+  background: white;
+  left: -4vw;
+  top: -1vw;
+}
+
+.title {
+  z-index: 1;
+  position: relative;
+  font-size: 8vw;
+  text-align: center;
+  color: black;
+  padding: 6%;
+  left: -2vw;
+  top: 3vw;
+}
+
+.arthur {
+  width: auto;
+  height: 89vw;
+  z-index: 1;
+  position: relative;
+  font-size: 8vw;
+  text-align: center;
+  color: #FF5C63;
+  padding: 29%;
+  left: -21vw;
+  top: -22vw;
+}
+
+ .click {
+  color: #00ced1;
+  font-size: 2.3vw;
+  position: relative;
+  z-index: 2;
+  top: -4vw;
+  left: 17vw;
+}
+
+a { 
+  text-decoration: none;
+}
+
+
+html {
+  font-family: 'akzidenzgrotesk';
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF5C63;
+  margin:0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 70%;
+}
+
+.col-3 {
+  width: 15%;
+}
+
+.arrow{
+  height: 5vw;
+  width: auto;
+  position: absolute;
+  left: 3vw;
+}
+
+.first, .second, .third, .fourth{
+  height: 50vw;
+  width: auto;
+}
