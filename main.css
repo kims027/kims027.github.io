@@ -1,22 +1,30 @@
 h1 {
   font-size: 80px;
   text-align: center;
-  color: white;
   font-family: helvetica;
   font-style: italic;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px grey;
 }
 
 body {
   padding: 20px;
-  background-image: radial-gradient(circle, skyblue, purple, pink);
   text-align: center;
 }
 
 a {
+  color: black;
   font-family:helvetica;
   background-color: white;
   padding: 20px;
   border-radius: 25px;
   text-align: center;
+  text-decoration: none;
 }
+
+  li {
+    cursor: default;
+  }
+
+  span {
+    color: red;
+  }
