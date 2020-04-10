@@ -22,6 +22,8 @@ $(document).on('click', function(event) {
    } else if (keyPressed.keyCode == '69') {
     $("h1").css("color","black");
    } 
+  });
+
 
   var position = $(window).scrollTop(); 
   
@@ -29,15 +31,14 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if(scroll > position) {
     console.log('scrollDown');
-    $('body').css("color","lightblue");
+    $('body').css("background-color","lightblue");
  } else {
     console.log('scrollUp');
-    $('body').css("color", "white"); 
+    $('body').css("background-color", "white"); 
  }
  position = scroll;
 
 });
 
 
-});
 });
