@@ -1,15 +1,10 @@
 $(function() {
-  // Your jQuery code goes inside this special $(function) call
+
 $(document).on('click', function(event) {
-  // All javascript event handlers give you information about the event type in the event argument.
   console.log(event);
 
-  // event.preventDefault() will prevent the default click event from happening in the browser.
-  // This makes it so that clicking a link doesn't actually go to that link.
   event.preventDefault();
 
-  // You can refer to items on the event object, such as the target, which represents
-  // the individual DOM element you clicked.
   var $clickTarget = $(event.target);
 
   $clickTarget.remove();
@@ -28,7 +23,20 @@ $(document).on('click', function(event) {
     $("h1").css("color","black");
    } 
 
+  var position = $(window).scrollTop(); 
+  
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if(scroll > position) {
+    console.log('scrollDown');
+    $('body').css("color","lightblue");
+ } else {
+    console.log('scrollUp');
+    $('body').css("color", "white"); 
+ }
+ position = scroll;
 
+});
 
 
 });
