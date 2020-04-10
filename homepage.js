@@ -1,15 +1,5 @@
 $(function() {
 
-$(document).on('click', function(event) {
-  console.log(event);
-
-  event.preventDefault();
-
-  var $clickTarget = $(event.target);
-
-  $clickTarget.remove();
-});
-
  $(document).keydown(function(keyPressed) {
    if (keyPressed.keyCode == '65') {
      $("h1").css("color","PowderBlue");
